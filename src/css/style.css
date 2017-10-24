@@ -1,0 +1,54 @@
+/* Compiled Less CSS File */
+/* Generated from "style.css" */
+
+/* 
+Developer name: Jeandre Melaria
+Project title: Bootstrap email newsletter template 2
+Platform: Bootstrap
+Programming language: HTML5, CSS3, Bootstrap
+IDE tool: Dreamweaver
+Database:  -
+Project type: Email newsletter template.
+File created date: 20.07.2017
+Last modified: 27.07.2017
+ */
+/* 
+Table of contents
+- Color swatches 
+- Variables
+- Mixings
+*/
+/* === === Color swatches === ==
+color 1: #f1f2ea
+color 2: #606c48
+color 3: white
+*/
+/* === === Variabel === == */
+/* === === Mixings === == */
+.bg-color {
+  background-color: #f1f2ea;
+}
+.bg-color2 {
+  background-color: #ffffff;
+}
+.text-color {
+  color: #606c48;
+}
+.margin {
+  margin: 20px 0 20px 0;
+}
+.padding {
+  padding: 20px;
+}
+.social-media-icon-size {
+  width: 25% !important;
+}
+.social-media-icon {
+  list-style: none;
+  margin: 0;
+}
+.social-media-icon li {
+  display: inline;
+}
+/* === === Links === == */
+/* === === Media queries === == */
