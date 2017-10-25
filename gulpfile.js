@@ -4,6 +4,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const cssnano = require('gulp-cssnano');
 const imagemin = require('gulp-imagemin');
 const browserSync = require('browser-sync');
+const htmlmin = require('gulp-htmlmin');
 
 
 //----- LOG MESSAGE -----//
@@ -11,9 +12,10 @@ gulp.task('message', function(){
 	return console.log('Gulp is running...');
 }); // To run type 'gulp message' in command line
 
-//----- COPY ALL HTML FILES TO BUILD FOLDER -----//
+//----- COPY ALL HTML FILES TO BUILD FOLDER AD MINIFY -----//
 gulp.task('copyHtml', function(){
 	gulp.src('src/*.html')
+	 .pipe(htmlmin({collapseWhitespace: true}))
 	.pipe(gulp.dest('build'));
 });
 
