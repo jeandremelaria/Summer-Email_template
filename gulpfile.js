@@ -15,7 +15,7 @@ gulp.task('message', function(){
 gulp.task('copyHtml', function(){
 	gulp.src('src/*.html')
 	.pipe(gulp.dest('build'));
-})
+});
 
 //----- GULP PREFIXER AND CSS NANO -----//
 gulp.task('prefixerAndCssNano', function(){
