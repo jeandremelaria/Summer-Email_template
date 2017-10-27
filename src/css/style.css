@@ -3,42 +3,32 @@
 
 /* 
 Developer name: Jeandre Melaria
-Project title: Bootstrap email newsletter template 2
+Project title: Summer
 Platform: Bootstrap
-Programming language: HTML5, CSS3, Bootstrap
+Programming language: HTML5, CSS3, Bootstrap, Less
 IDE tool: Dreamweaver
 Database:  -
 Project type: Email newsletter template.
-File created date: 20.07.2017
-Last modified: 27.07.2017
+File created date: 26.07.2017
+Last modified: 27.10.2017
  */
-/* 
-Table of contents
-- Color swatches 
-- Variables
-- Mixings
-*/
-/* === === Color swatches === ==
-color 1: #f1f2ea
-color 2: #606c48
-color 3: white
-*/
-/* === === Variabel === == */
-/* === === Mixings === == */
 .bg-color {
   background-color: #f1f2ea;
 }
 .bg-color2 {
   background-color: #ffffff;
 }
-.text-color {
+.color-3 {
   color: #606c48;
 }
 .margin {
-  margin: 20px 0 20px 0;
+  margin-top: 1rem;
+  margin-right: 0;
+  margin-bottom: 1rem;
+  margin-left: 0;
 }
 .padding {
-  padding: 20px;
+  padding: 1rem;
 }
 .social-media-icon-size {
   width: 25% !important;
@@ -50,5 +40,3 @@ color 3: white
 .social-media-icon li {
   display: inline;
 }
-/* === === Links === == */
-/* === === Media queries === == */

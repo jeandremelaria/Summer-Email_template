@@ -1,50 +1,59 @@
 /* 
 Developer name: Jeandre Melaria
-Project title: Bootstrap email newsletter template 2
+Project title: Summer
 Platform: Bootstrap
-Programming language: HTML5, CSS3, Bootstrap
+Programming language: HTML5, CSS3, Bootstrap, Less
 IDE tool: Dreamweaver
 Database:  -
 Project type: Email newsletter template.
-File created date: 20.07.2017
-Last modified: 27.07.2017
+File created date: 26.07.2017
+Last modified: 27.10.2017
  */
 
-/* 
-Table of contents
-- Color swatches 
-- Variables
-- Mixings
-*/
+// === === Table of contents === === //
+// - Variables
+// - Functions
+// - Mixings
 
-/* === === Color swatches === ==
-color 1: #f1f2ea
-color 2: #606c48
-color 3: white
-*/
-
-/* === === Variabel === == */
+// === === Variables === === //
 @color-1: #f1f2ea;
-@color-2: white;
-@text-color: #606c48;
-@margin: 20px;
-@padding:20px;
+@color-2: #fff;
+@color-3: #606c48;
 
-/* === === Mixings === == */
+// === === Functions === === //
+.bgColor(@bgcolor:@color-1){
+	background-color:@bgcolor;
+}
+.color(@color:@color-1){
+	color:@color;
+}
+
+.margin(@margin-top:1rem,@margin-right:1rem,@margin-bottom:1rem, @margin-left:1rem){
+	margin-top:@margin-top;
+	margin-right:@margin-right;
+	margin-bottom:@margin-bottom;
+	margin-left:@margin-left;
+}
+
+.padding(@padding: 1rem){
+	padding:@padding;
+}
+
+// === === Mixings === === //
 .bg-color{
-	background-color:@color-1;
+	.bgColor();
 }
 .bg-color2{
-	background-color:@color-2;
+	.bgColor(@color-2);
 }
-.text-color{
- 	color:@text-color;
+.color-3{
+	.color(@color-3);
 }
 .margin{
-	margin:@margin 0 @margin 0;	
+	.margin(1rem,0,1rem,0);	
 }
 .padding{
-	padding:@padding;
+	.padding();
 }
 .social-media-icon-size{
 	width:25% !important;
@@ -52,12 +61,8 @@ color 3: white
 .social-media-icon {
     list-style:none;
     margin:0;
+	
+	 li {
+    		display: inline;
+		}
 }
-
-.social-media-icon  li {
-    display: inline;
-}
-
-/* === === Links === == */
-
-/* === === Media queries === == */
