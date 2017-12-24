@@ -1,6 +1,6 @@
 # Title : Summer 
 
-## Version : 1.0.0
+## Version : 1.0.0 (Change log) (CHANGEDLOG.md)
 
 ## Description : A simple HTML5 and CSS3 email template.
 
