@@ -1,9 +1,24 @@
-# Product Name : Summer 
-> Css email template
+# Title : Summer 
 
-## Meta
+## Version : 1.0.0
 
+## Description : A simple HTML5 and CSS3 email template.
+
+## Installation instructions : 
+	- Run npm install to install devDependencies.
+	- Edit files in src folder.
+	- Deploy or upload files in the build folder.
+
+## Demo 
+https://jeandremelaria.github.io/Summer-Email_template/build/
+
+## Contributors
 Jeandre Melaria – j.melaria@hotmail.com
+
+
+
+
+
 
 Distributed under the MIT License. See ``LICENSE`` for more information.
 
