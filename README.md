@@ -5,7 +5,7 @@
 ## Description : A simple HTML5 and CSS3 email template.
 
 ## Installation instructions : 
-	- Run npm install to install devDependencies.
+	- Clone repository
 	- Edit files in src folder.
 	- Deploy or upload files in the build folder.
 
