@@ -7,8 +7,8 @@ Initial Release.
 Added:
 - Package.json
 - Readme.md
-- Change log 
+- Changelog.md 
 - git ignore
-- gulpfile
+- gulpfile.js
 - src folder
 - buil folder
