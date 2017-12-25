@@ -6,6 +6,7 @@
 
 ## Installation instructions : 
 	- Clone repository
+	- Run npm install to install devDependencies.
 	- Edit files in src folder.
 	- Deploy or upload files in the build folder.
 
